@@ -5,9 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/code/roman-numerals/pom.xml" />
+        <option value="$PROJECT_DIR$/code/sorting/pom.xml" />
+        <option value="$PROJECT_DIR$/code/heap/pom.xml" />
       </list>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

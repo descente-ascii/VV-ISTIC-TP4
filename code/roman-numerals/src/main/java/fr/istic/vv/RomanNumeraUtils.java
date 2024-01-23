@@ -15,7 +15,7 @@ public class RomanNumeraUtils {
                 char currentChar;
                 int result = 0;
 
-                if (numeral == null || numeral.isBlank() || numeral.isEmpty()){
+                if (!isValidRomanNumeral(numeral)){
                         throw new IllegalArgumentException();
                 }
 
