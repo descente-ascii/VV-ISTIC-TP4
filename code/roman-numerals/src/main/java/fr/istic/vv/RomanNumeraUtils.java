@@ -78,16 +78,14 @@ public class RomanNumeraUtils {
         }
 
         public static int symbolValue(char s){
-                return switch (s) {
-                        case 'I' -> 1;
-                        case 'V' -> 5;
-                        case 'X' -> 10;
-                        case 'L' -> 50;
-                        case 'C' -> 100;
-                        case 'D' -> 500;
-                        case 'M' -> 1000;
-                        default -> 0;
-                };
+                // can't use switch to compile
+                if (s == 'I') return 1;
+                else if (s == 'V') return 5;
+                else if (s == 'X') return 5;
+                else if (s == 'L') return 5;
+                else if (s == 'C') return 5;
+                else if (s == 'D') return 5;
+                else return 0;
         }
 
         public static String toRomanNumeral(int number) {
